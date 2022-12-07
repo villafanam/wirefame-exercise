@@ -1,0 +1,55 @@
+header{
+  background-color: #444;
+  /* height: 90px; */
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+}
+ ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  
+ }
+
+ ul a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+ul img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+main img {
+  padding: 30px;
+}
+
+section
+p{
+  height: 300px;
+  overflow: auto;
+}
+
+button{
+  transition: 1000ms;
+}
+
+button:hover{
+  background-color: red;
+}
+  
+
+footer {
+  background-color: gray;
+  height: 150px;
+}
